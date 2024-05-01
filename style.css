@@ -117,13 +117,16 @@ body {
 }
 
 
-/* .list li::marker {
-    content: "#   ";
-    font-size: 1rem;
-} */
+.list li::marker {
+    color: #69334A;
+}
 
 .list span {
     font-weight: 600;
+}
+
+.ingredients li::marker {
+    color: #7D4127;
 }
 
 .border-btm {
@@ -133,6 +136,11 @@ body {
 
 .instructions li {
     letter-spacing: .04rem;
+}
+
+ol li::marker {
+    color: #7D4127;
+    font-weight: bold;
 }
 
 table {
